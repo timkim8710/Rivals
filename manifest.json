@@ -1,0 +1,9 @@
+{
+  "name": "Rivals",
+  "short_name": "Rivals",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#f4ff00",
+  "icons": [{ "src": "assets/icon.png", "sizes": "512x512", "type": "image/png" }]
+}
