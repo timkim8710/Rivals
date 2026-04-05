@@ -1,0 +1,21 @@
+body, html {
+    margin: 0; padding: 0; overflow: hidden;
+    background: #050505; font-family: 'Arial Black', sans-serif;
+}
+
+#gameCanvas {
+    display: block;
+    background: radial-gradient(circle, #1a1a1a 0%, #000 100%);
+}
+
+.ui-layer {
+    position: absolute; top: 20px; left: 20px;
+    color: #f4ff00; text-transform: uppercase;
+    pointer-events: none;
+}
+
+.stats {
+    font-size: 2rem; transform: skewX(-15deg);
+    background: rgba(255,255,255,0.1); padding: 10px;
+    border-left: 5px solid #f4ff00;
+}
